@@ -20,4 +20,4 @@ public class MetricasDeCommitsRelacionados {
 		.in(GitRepository.allIn(repoPath)).process(new ContadorCommitsEArquivosRelacionados(extesoesProcuradas,extesoesRelacionadasProcuradas,tipoDeCommit),
 				new CSVFile(csvPath)).start();;
 	}
-} 
+}
